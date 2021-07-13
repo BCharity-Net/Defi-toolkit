@@ -2,7 +2,7 @@
   "name": "bcharity-newtoolkit",
   "version": "1.0.0",
   "description": "Pancake frontend packages",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
