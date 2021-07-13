@@ -1,6 +1,11 @@
 {
+<<<<<<< Updated upstream
   "name": "@pancakeswap/uikit",
   "version": "0.40.2",
+=======
+  "name": "@bcharitypackges/uikit",
+  "version": "4.1.0",
+>>>>>>> Stashed changes
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -49,6 +54,7 @@
     "lodash": "^4.17.20",
     "react-popper": "^2.2.5",
     "react-transition-group": "^4.4.1",
+    "rollup": "^2.53.1",
     "styled-system": "^5.1.5"
   },
   "publishConfig": {
