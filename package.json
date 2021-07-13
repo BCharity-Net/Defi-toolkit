@@ -1,5 +1,5 @@
 {
-  "name": "pancake-toolkit",
+  "name": "bcharity-newtoolkit",
   "version": "1.0.0",
   "description": "Pancake frontend packages",
   "private": true,
@@ -8,11 +8,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pancakeswap/pancake-toolkit.git"
+    "url": "git+https://github.com/BCharity-Net/Defi-toolkit"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pancakeswap/pancake-toolkit/issues"
+    "url": "https://github.com/BCharity-Net/Defi-toolkit/issues"
   },
   "homepage": "https://github.com/pancakeswap/pancake-toolkit#readme",
   "scripts": {
