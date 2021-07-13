@@ -3,6 +3,88 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.6.0 (2021-07-13)
+
+
+### Bug Fixes
+
+* :fire: UI updates: button click animation, menu closing fix, men… ([#63](https://github.com/pancakeswap/pancake-toolkit/issues/63)) ([3d9ba48](https://github.com/pancakeswap/pancake-toolkit/commit/3d9ba489f642939cfdf54d6939c0fdd7309ed86b))
+* (Menu) Footer is not visible completely when navigation bar is visible ([#138](https://github.com/pancakeswap/pancake-toolkit/issues/138)) ([fa6fc66](https://github.com/pancakeswap/pancake-toolkit/commit/fa6fc669091398de8c3cee156e3724006023a4a2))
+* (userblock) Check Props properties seperately to not cause rerender each time ([#151](https://github.com/pancakeswap/pancake-toolkit/issues/151)) ([e6f90d7](https://github.com/pancakeswap/pancake-toolkit/commit/e6f90d7b41a1b3a1d373560dd29e06f10c324639))
+* (userblock) Rerender userblock when one of the props changes ([#148](https://github.com/pancakeswap/pancake-toolkit/issues/148)) ([ba5e3ab](https://github.com/pancakeswap/pancake-toolkit/commit/ba5e3ab25d558830a1af49e82943b53c5a5ab344))
+* Accordion menu not showing new result when children changed ([#77](https://github.com/pancakeswap/pancake-toolkit/issues/77)) ([57ff149](https://github.com/pancakeswap/pancake-toolkit/commit/57ff1493987c0928d7d9f3cf04fc013331f65ab5))
+* Accordion menu stuck at active state ([#57](https://github.com/pancakeswap/pancake-toolkit/issues/57)) ([f9f5162](https://github.com/pancakeswap/pancake-toolkit/commit/f9f5162f269a27b375943db4b87850c6d8998d3d))
+* Add border to button menu ([#117](https://github.com/pancakeswap/pancake-toolkit/issues/117)) ([ddccc89](https://github.com/pancakeswap/pancake-toolkit/commit/ddccc894873fc029e085df3fddc95adfc2cd4488))
+* Add missing ios support for balance input ([#75](https://github.com/pancakeswap/pancake-toolkit/issues/75)) ([b648a77](https://github.com/pancakeswap/pancake-toolkit/commit/b648a77c9b7d7f0f818153688779f2254060ee88))
+* Add z-index 10 to StyledTooltip ([#70](https://github.com/pancakeswap/pancake-toolkit/issues/70)) ([24941ff](https://github.com/pancakeswap/pancake-toolkit/commit/24941ff7234e4ad89a4fa0c10c85e2f73e8f72aa))
+* Bunny slider progress width is too small when is leftmost and too big when is rightmost side ([#103](https://github.com/pancakeswap/pancake-toolkit/issues/103)) ([298fd8e](https://github.com/pancakeswap/pancake-toolkit/commit/298fd8e9ed68d580183b4ea62710dd85867becfc))
+* Button loading state ([#30](https://github.com/pancakeswap/pancake-toolkit/issues/30)) ([7fff56d](https://github.com/pancakeswap/pancake-toolkit/commit/7fff56d022e06a911525f6163de1e4b5adfab9c7))
+* Card radius ([#116](https://github.com/pancakeswap/pancake-toolkit/issues/116)) ([beb881a](https://github.com/pancakeswap/pancake-toolkit/commit/beb881a8829496a0949f1ae073e88759f131f801))
+* **card-ribbon:** Add z-index value to ribbon and spread props to improve flexibility of component ([#88](https://github.com/pancakeswap/pancake-toolkit/issues/88)) ([2fb19f1](https://github.com/pancakeswap/pancake-toolkit/commit/2fb19f19ffef89a7abc73d1e77734b1a46a99d29))
+* Change help link of connect modal to point connect ([#118](https://github.com/pancakeswap/pancake-toolkit/issues/118)) ([486e7d3](https://github.com/pancakeswap/pancake-toolkit/commit/486e7d375b8abaa9a4fabfc079c9872c2925c929))
+* Chrome blurs logo during scaling animation ([#98](https://github.com/pancakeswap/pancake-toolkit/issues/98)) ([d3b79bc](https://github.com/pancakeswap/pancake-toolkit/commit/d3b79bc67dab44e5f7b042f367211e902375b4eb))
+* Copy clipboard on mobile devices ([#2](https://github.com/pancakeswap/pancake-toolkit/issues/2)) ([a64bfd8](https://github.com/pancakeswap/pancake-toolkit/commit/a64bfd8b998f9ab9ee4daac9b42fa8c7a7eb53a7))
+* Dropdown colors ([#100](https://github.com/pancakeswap/pancake-toolkit/issues/100)) ([5d66f62](https://github.com/pancakeswap/pancake-toolkit/commit/5d66f62db5234bc8d59d836ba65713b79b5ecbbf))
+* Included setupTests.js and updated snap tests ([#50](https://github.com/pancakeswap/pancake-toolkit/issues/50)) ([b6ab0ee](https://github.com/pancakeswap/pancake-toolkit/commit/b6ab0ee48e82c8ac88b288e1f790e1c91babb93d))
+* Make BalanceInputt a type="number" ([#74](https://github.com/pancakeswap/pancake-toolkit/issues/74)) ([e6e6915](https://github.com/pancakeswap/pancake-toolkit/commit/e6e69151a79c35f9c736b1fb996cebb99ce526fc))
+* **menu:** Improved accessibility ([#109](https://github.com/pancakeswap/pancake-toolkit/issues/109)) ([eda619d](https://github.com/pancakeswap/pancake-toolkit/commit/eda619d18866f0cbd1958a16cdd2bede327bf485))
+* Message component ([#150](https://github.com/pancakeswap/pancake-toolkit/issues/150)) ([90387d4](https://github.com/pancakeswap/pancake-toolkit/commit/90387d4cc5758763476d1d20c0a9b8d63588c689))
+* Modal border inner color use theme value ([#37](https://github.com/pancakeswap/pancake-toolkit/issues/37)) ([8e5c9c4](https://github.com/pancakeswap/pancake-toolkit/commit/8e5c9c409b38059f70f6746bc769f4eced009660))
+* **modal:** Change modal min width to 320px ([#60](https://github.com/pancakeswap/pancake-toolkit/issues/60)) ([f09ade9](https://github.com/pancakeswap/pancake-toolkit/commit/f09ade9f149d6793404c86829a728b4f1ba7b93a))
+* Put shadow under the bunny head of slider component ([#25](https://github.com/pancakeswap/pancake-toolkit/issues/25)) ([92da5b5](https://github.com/pancakeswap/pancake-toolkit/commit/92da5b5cf746c1a3e10d05c3e5344943a926d943))
+* React dom failure when passing unknown props to child component ([#49](https://github.com/pancakeswap/pancake-toolkit/issues/49)) ([e3c0272](https://github.com/pancakeswap/pancake-toolkit/commit/e3c02729bb5c1391d6179a7da6c38bdee6f741bf))
+* Set panel z index to 0 on desktop ([#45](https://github.com/pancakeswap/pancake-toolkit/issues/45)) ([6cde36e](https://github.com/pancakeswap/pancake-toolkit/commit/6cde36ee73b2075de85ef809bed3f959e46de6e2))
+* Slider step label position ([#36](https://github.com/pancakeswap/pancake-toolkit/issues/36)) ([060b835](https://github.com/pancakeswap/pancake-toolkit/commit/060b835c68d67d83575f3f8783c2610133798aea))
+* Stepper alignement ([#69](https://github.com/pancakeswap/pancake-toolkit/issues/69)) ([25df26a](https://github.com/pancakeswap/pancake-toolkit/commit/25df26a9c9e6668c4e0ccd8171df6f748b41dccf))
+* Stepper connector visibility ([#66](https://github.com/pancakeswap/pancake-toolkit/issues/66)) ([629be7b](https://github.com/pancakeswap/pancake-toolkit/commit/629be7b33cc3c7d95499ca67b7a175a29f3f7225))
+* Stepper layout ([#73](https://github.com/pancakeswap/pancake-toolkit/issues/73)) ([6899561](https://github.com/pancakeswap/pancake-toolkit/commit/6899561397a065e625b9ea2461f5d1a7b328fa3a))
+* **tab-menu:** Fix scroll overflow and tighten padding on sm phones ([#62](https://github.com/pancakeswap/pancake-toolkit/issues/62)) ([ef0cd3d](https://github.com/pancakeswap/pancake-toolkit/commit/ef0cd3d8896b34968e3610c2a078842dfe7142bf))
+* Theme config key name ([#71](https://github.com/pancakeswap/pancake-toolkit/issues/71)) ([d55e4bc](https://github.com/pancakeswap/pancake-toolkit/commit/d55e4bc76486d9c04df62b7e1359b394a8b89dd8))
+* Tooltip on hover disappear immediately when mouse leaves target element ([#90](https://github.com/pancakeswap/pancake-toolkit/issues/90)) ([97642eb](https://github.com/pancakeswap/pancake-toolkit/commit/97642eb9f5b9d58a23107e692219362c83711917))
+* **uikit:** Accept float values for Slider ([#4](https://github.com/pancakeswap/pancake-toolkit/issues/4)) ([018d7e5](https://github.com/pancakeswap/pancake-toolkit/commit/018d7e5276e06cf880b2ce8f15f6eaa10e47f236))
+* Visible Border and background in ios for bunny slider ([#93](https://github.com/pancakeswap/pancake-toolkit/issues/93)) ([cbb93f7](https://github.com/pancakeswap/pancake-toolkit/commit/cbb93f7c7655e072ded9857cdef08f6b36bfa301))
+* Z index breaking language switcher ([#67](https://github.com/pancakeswap/pancake-toolkit/issues/67)) ([7179eb1](https://github.com/pancakeswap/pancake-toolkit/commit/7179eb16d1125c517362cf953a04659d8d12dd1d))
+
+
+### Features
+
+* (BalanceInput) Add decimal check support ([#142](https://github.com/pancakeswap/pancake-toolkit/issues/142)) ([763e13f](https://github.com/pancakeswap/pancake-toolkit/commit/763e13f836ac2cbb8a3b1132d98854e07a492ced))
+* (connect) Change how to connect link with more accurate one ([#152](https://github.com/pancakeswap/pancake-toolkit/issues/152)) ([bfbe506](https://github.com/pancakeswap/pancake-toolkit/commit/bfbe506e63ef7a243d7425d07fb59c9da9d5a06b))
+* Add a grid primitive ([#122](https://github.com/pancakeswap/pancake-toolkit/issues/122)) ([15e8aad](https://github.com/pancakeswap/pancake-toolkit/commit/15e8aad6bd87ed204a7ffcd14d434a009a0051ef))
+* Add card header variants ([#34](https://github.com/pancakeswap/pancake-toolkit/issues/34)) ([079e3f2](https://github.com/pancakeswap/pancake-toolkit/commit/079e3f2cf5536aec5bb402af534c2a05723a3cb3))
+* Add expandable buttons ([#35](https://github.com/pancakeswap/pancake-toolkit/issues/35)) ([0790f3e](https://github.com/pancakeswap/pancake-toolkit/commit/0790f3ed241acbd0236c8c134579efaa8a5c457b))
+* Add left position for card ribbon ([#68](https://github.com/pancakeswap/pancake-toolkit/issues/68)) ([0edaf8e](https://github.com/pancakeswap/pancake-toolkit/commit/0edaf8e7a1dfa76be1fa858d3e534471a533b512))
+* Add minWidth and headerBackground props to Modal ([#26](https://github.com/pancakeswap/pancake-toolkit/issues/26)) ([ba5d231](https://github.com/pancakeswap/pancake-toolkit/commit/ba5d231ce8c9d9f39b507befa7dbbf731bac0b26))
+* Add new icons ([04cbe90](https://github.com/pancakeswap/pancake-toolkit/commit/04cbe90e893ef7ed834edc1abd6bdb2e0ff23be2))
+* Add text ellipsis ([#121](https://github.com/pancakeswap/pancake-toolkit/issues/121)) ([17d1bfa](https://github.com/pancakeswap/pancake-toolkit/commit/17d1bfadef5b8c78a2f7f8400e3942e5bb6a419a))
+* Add Tune icon ([#54](https://github.com/pancakeswap/pancake-toolkit/issues/54)) ([54702ac](https://github.com/pancakeswap/pancake-toolkit/commit/54702ac31f6ff7ea0eeb7483363841eb0a2262d6))
+* Add VisibilityOn and VisibilityOff icons ([#81](https://github.com/pancakeswap/pancake-toolkit/issues/81)) ([6635681](https://github.com/pancakeswap/pancake-toolkit/commit/6635681402de7c43fa429808a46b733fb415ac5f))
+* **colors:** Add card gradients to colors theme  ([#61](https://github.com/pancakeswap/pancake-toolkit/issues/61)) ([4c7a8ac](https://github.com/pancakeswap/pancake-toolkit/commit/4c7a8acfb328b80d203ba39eccac92dbf64ca674))
+* Menu variant without Connect button ([#155](https://github.com/pancakeswap/pancake-toolkit/issues/155)) ([84b6f68](https://github.com/pancakeswap/pancake-toolkit/commit/84b6f683693b426428c5445fc6891608e3943399))
+* **menu-status:** Add optional menu item 'status' property ([#29](https://github.com/pancakeswap/pancake-toolkit/issues/29)) ([65f7e02](https://github.com/pancakeswap/pancake-toolkit/commit/65f7e026345d145b61d43864699df3c1aa319446))
+* **menu:** Add support for top level tags on accordion ([#84](https://github.com/pancakeswap/pancake-toolkit/issues/84)) ([a15257b](https://github.com/pancakeswap/pancake-toolkit/commit/a15257ba0460d116bfeaa5ffdad1b9e2c20b4872))
+* Message component ([#120](https://github.com/pancakeswap/pancake-toolkit/issues/120)) ([0584b7d](https://github.com/pancakeswap/pancake-toolkit/commit/0584b7d59dd84273c36f81b19077a1eca1fd0bee))
+* **modal-bg:** Add overflow hidden prop to Modal container and update storybook ([#82](https://github.com/pancakeswap/pancake-toolkit/issues/82)) ([2233499](https://github.com/pancakeswap/pancake-toolkit/commit/22334997bf9dde0dcfb551bc26e78a3a92c8e5db))
+* **progress:** Scale ([#79](https://github.com/pancakeswap/pancake-toolkit/issues/79)) ([1adc8f2](https://github.com/pancakeswap/pancake-toolkit/commit/1adc8f255af8b0d61ab3f847468de36667385af6))
+* Reactive modals ([#183](https://github.com/pancakeswap/pancake-toolkit/issues/183)) ([7644124](https://github.com/pancakeswap/pancake-toolkit/commit/7644124b0205379019eba9aebcab30d163144fae))
+* Refresh icon ([#27](https://github.com/pancakeswap/pancake-toolkit/issues/27)) ([60d9b34](https://github.com/pancakeswap/pancake-toolkit/commit/60d9b34fbbd871d678c1836ff7ab924a4b301193))
+* Stepper ([#42](https://github.com/pancakeswap/pancake-toolkit/issues/42)) ([8b1b72e](https://github.com/pancakeswap/pancake-toolkit/commit/8b1b72e00bcf012df258becd1048770af2498221))
+* **svgs:** Add latest icons to uiki ([#23](https://github.com/pancakeswap/pancake-toolkit/issues/23)) ([f2c218e](https://github.com/pancakeswap/pancake-toolkit/commit/f2c218e270ed8c351184fedf8ef5d7edd9439176))
+* **text:** Add styled system { layout } style to Text ([#96](https://github.com/pancakeswap/pancake-toolkit/issues/96)) ([2b619a1](https://github.com/pancakeswap/pancake-toolkit/commit/2b619a15f4806b1eb92d4cbd08a36984777038d1))
+* **uikit/tag:** Warning variant ([#110](https://github.com/pancakeswap/pancake-toolkit/issues/110)) ([f4b9d87](https://github.com/pancakeswap/pancake-toolkit/commit/f4b9d87100c4d493728277d566fdf581d0fca6bd))
+* **uikit:** Bubblegum card header variant ([#114](https://github.com/pancakeswap/pancake-toolkit/issues/114)) ([95ca7a0](https://github.com/pancakeswap/pancake-toolkit/commit/95ca7a071305a840cf8582df2a812b819624c8a7))
+* **uikit:** Dropdown color ([#52](https://github.com/pancakeswap/pancake-toolkit/issues/52)) ([52aae47](https://github.com/pancakeswap/pancake-toolkit/commit/52aae470bc0067f5ac130df3bdb562c2911cb5cc))
+* **uikit:** Icons ([#40](https://github.com/pancakeswap/pancake-toolkit/issues/40)) ([6aab674](https://github.com/pancakeswap/pancake-toolkit/commit/6aab674e7f304439cc1f2fe3754aa8f697cc3efd))
+* **uikit:** Icons ([#41](https://github.com/pancakeswap/pancake-toolkit/issues/41)) ([ff80fbe](https://github.com/pancakeswap/pancake-toolkit/commit/ff80fbe940e0afd54ecb2be8a08a241109dde185))
+* **uikit:** Prediction icons ([#87](https://github.com/pancakeswap/pancake-toolkit/issues/87)) ([25b03ce](https://github.com/pancakeswap/pancake-toolkit/commit/25b03ce2eb2bab14fc48cd8d8b5de212e12e3ee4))
+* **uikit:** Proposal icon ([#108](https://github.com/pancakeswap/pancake-toolkit/issues/108)) ([6ca7995](https://github.com/pancakeswap/pancake-toolkit/commit/6ca7995c3e7acfaf9e7309e86b953a11b25305b8))
+* **uikit:** Vote icon ([#111](https://github.com/pancakeswap/pancake-toolkit/issues/111)) ([1399814](https://github.com/pancakeswap/pancake-toolkit/commit/1399814b123ea6232c16aff231965112b63f3fa0))
+
+
+
+
+
+
 ## [0.40.2](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@pancakeswap/uikit@0.40.1...@pancakeswap/uikit@0.40.2) (2021-07-09)
 
 **Note:** Version bump only for package @pancakeswap/uikit
