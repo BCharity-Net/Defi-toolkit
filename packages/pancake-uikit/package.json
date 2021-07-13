@@ -1,23 +1,18 @@
 {
-<<<<<<< Updated upstream
-  "name": "@pancakeswap/uikit",
-  "version": "0.40.2",
-=======
   "name": "@bcharitypackges/uikit",
   "version": "4.1.0",
->>>>>>> Stashed changes
-  "description": "Set of UI components for pancake projects",
+  "description": "Set of UI components for bcharity defi website",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+  "repository": "https://github.com/BCharity-Net/Defi-toolkit/tree/master/packages/pancake-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
-    "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
+    "build": "del -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format:check": "prettier --check --loglevel error 'src/**/*.{js,jsx,ts,tsx}'",
     "format:write": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
