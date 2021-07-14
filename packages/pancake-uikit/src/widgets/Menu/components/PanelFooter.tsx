@@ -23,10 +23,18 @@ const SettingsEntry = styled.div`
   align-items: center;
   justify-content: space-between;
   height: ${MENU_ENTRY_HEIGHT}px;
-  padding: 0 8px;
+  padding: 0 16px;
 `;
 
 const SocialEntry = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: ${MENU_ENTRY_HEIGHT}px;
+  padding: 0 16px;
+`;
+
+const ThemeEntry = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -62,10 +70,12 @@ const PanelFooter: React.FC<Props> = ({
         <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
       </SocialEntry>
 
+      <ThemeEntry>
+        <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+      </ThemeEntry>
+
       <SettingsEntry>
-      
         <SocialLinks />
-        
       </SettingsEntry>
     </Container>
   );
