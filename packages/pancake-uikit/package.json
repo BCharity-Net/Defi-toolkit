@@ -12,7 +12,7 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
-    "build": "del -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
+    "build": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format:check": "prettier --check --loglevel error 'src/**/*.{js,jsx,ts,tsx}'",
     "format:write": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
@@ -34,7 +34,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.3.0",
+    "themeprovider-storybook": "^1.7.2"
   },
   "peerDependencies": {
     "react": "^17.0.2",
@@ -44,6 +45,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.9.2",
+    "@storybook/react": "^6.0.28",
     "@types/lodash": "^4.14.168",
     "@types/styled-system": "^5.1.10",
     "lodash": "^4.17.20",
