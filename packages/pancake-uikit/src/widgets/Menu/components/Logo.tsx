@@ -48,13 +48,21 @@ const StyledLink = styled(Link)`
   }
 `;
 
+const StyledTitle = styled.div`
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    color: #932ed1;
+`
+
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <LogoIcon className="mobile-icon" />
+      <LogoIcon className="mobile-icon" width="39px" height="39px" margin-top="8px" />
        {/*<LogoWithText className="desktop-icon" isDark={isDark} />*/}
         <LogoWithText className="desktop-icon" />
+        <StyledTitle>BCharity</StyledTitle>
       <LogoWithText className="desktop-icon" />
     </>
   );
