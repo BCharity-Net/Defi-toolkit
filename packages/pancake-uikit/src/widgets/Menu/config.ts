@@ -150,11 +150,11 @@ export const socials = [
     icon: "TwitterIcon",
     href: "https://twitter.com/bcharity6",
   },
-  // {
-  //   label: "Discord",
-  //   icon: "DiscordIcon",
-  //   href: "https://discord.com/invite/xfnh4R4em9",
-  // },
+  {
+    label: "Discord",
+    icon: "DiscordIcon",
+    href: "https://discord.gg/PYxgPMTc",
+  },
   // {
   //   label: "Instagram",
   //   icon: "InstagramIcon",
