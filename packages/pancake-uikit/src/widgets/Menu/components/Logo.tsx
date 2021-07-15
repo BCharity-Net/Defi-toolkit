@@ -18,6 +18,13 @@ const blink = keyframes`
   50% { transform:  scaleY(0.1); } 
 `;
 
+// animation for heart
+const pulse = keyframes`
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+`
+
 const StyledDiv = styled.div`
   display: flex;
   align-items: center;
@@ -34,6 +41,13 @@ const StyledDiv = styled.div`
       display: block;
     }
   }
+  
+  &:hover {
+    .heart {
+      animation: ${pulse} 1s ease infinite;
+    }
+  }
+  
 `
 
 const StyledLink = styled(Link)`
@@ -67,10 +81,13 @@ const StyledLink = styled(Link)`
 `;
 
 const StyledTitle = styled.div`
-    display: flex;
+    display: none;
+    ${({ theme }) => theme.mediaQueries.nav} {
+      display: flex;
+    }
     align-items: center;
     font-size: 28px;
-    color: #932ed1;
+    color: #6498da;
 `
 
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
@@ -96,6 +113,9 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         <StyledDiv>
             { innerLogo }
         </StyledDiv>
+        <StyledTitle>BCharity</StyledTitle>
+        {/*<image width="32" height="32" href="../../../../resources/image2vector.svg"/>*/}
+        {/*<img width="32px" height="32px" src={require("../../../resources/image2vector.svg")}/>*/}
       {/* {isAbsoluteUrl ? (
         // <StyledLink as="a" href={href} aria-label="Pancake home page">
         //   {innerLogo}
