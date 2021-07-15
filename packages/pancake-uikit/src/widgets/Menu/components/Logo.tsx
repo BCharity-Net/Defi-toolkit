@@ -18,6 +18,24 @@ const blink = keyframes`
   50% { transform:  scaleY(0.1); } 
 `;
 
+const StyledDiv = styled.div`
+  display: flex;
+  align-items: center;
+  .mobile-icon {
+    width: 32px;
+    ${({ theme }) => theme.mediaQueries.nav} {
+      display: none;
+    }
+  }
+  .desktop-icon {
+    width: 160px;
+    display: none;
+    ${({ theme }) => theme.mediaQueries.nav} {
+      display: block;
+    }
+  }
+`
+
 const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
@@ -60,10 +78,9 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const innerLogo = (
     <>
       <LogoIcon className="mobile-icon" width="39px" height="39px" margin-top="8px" />
-       {/*<LogoWithText className="desktop-icon" isDark={isDark} />*/}
-        <LogoWithText className="desktop-icon" />
-        <StyledTitle>BCharity</StyledTitle>
-      <LogoWithText className="desktop-icon" />
+       <LogoWithText className="desktop-icon" isDark={isDark} />
+       {/* <LogoWithText className="desktop-icon" />*/}
+       {/* <StyledTitle>BCharity</StyledTitle>*/}
     </>
   );
 
@@ -76,8 +93,9 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
           <HamburgerIcon width="24px" color="textSubtle" />
         )}
       </MenuButton>
-        { innerLogo }
-        {/*< img width="32" height="32" src="src/resources/heart.png"/>*/}
+        <StyledDiv>
+            { innerLogo }
+        </StyledDiv>
       {/* {isAbsoluteUrl ? (
         // <StyledLink as="a" href={href} aria-label="Pancake home page">
         //   {innerLogo}
