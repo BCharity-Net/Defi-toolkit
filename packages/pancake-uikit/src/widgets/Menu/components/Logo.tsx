@@ -44,7 +44,7 @@ const StyledDiv = styled.div`
   
   &:hover {
     .heart {
-      animation: ${pulse} 1s ease infinite;
+      animation: ${pulse} 1.8s ease infinite;
     }
   }
   
