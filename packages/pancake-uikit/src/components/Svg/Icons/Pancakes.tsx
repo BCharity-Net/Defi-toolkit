@@ -9,7 +9,9 @@ interface LogoProps extends SvgProps {
 const Icon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 32 32" {...props}>
-      <image width="32" height="32" href="/resources/heart.png"/>
+        {/*  "images" in the path refers to the images folder in the frontend - won't load in storybook*/}
+        <image width="32" height="32" href={"/images/test-uikit/heart.png"}/>
+
     </Svg>
   );
 };

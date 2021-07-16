@@ -7,6 +7,7 @@ import WalletCard from "./WalletCard";
 import config from "./config";
 import { Login } from "./types";
 
+
 interface Props {
   login: Login;
   onDismiss?: () => void;
@@ -30,7 +31,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
         mb={index < config.length - 1 ? "8px" : "0"}
       />
     ))}
-    <HelpLink href="https://docs.pancakeswap.finance/get-started/connection-guide" external>
+    <HelpLink href="https://docs.matic.network/docs/develop/wallets/getting-started/" external>
       <HelpIcon color="primary" mr="6px" />
       Learn how to connect
     </HelpLink>

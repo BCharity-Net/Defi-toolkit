@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { LogoIcon } from "../../../components/Svg";
+import { PancakesIcon } from "../../../components/Svg";
 import Text from "../../../components/Text/Text";
 import Skeleton from "../../../components/Skeleton/Skeleton";
 
@@ -28,7 +28,7 @@ const CakePrice: React.FC<Props> = ({ cakePriceUsd }) => {
       href="https://quickchart.app/token/0x9bbcda2606e616659b118399a2823e8a392f55da?pairedWith=USDC"
       target="_blank"
     >
-      <LogoIcon width="24px" mr="8px" />
+      <PancakesIcon width="24px" mr="8px" />
       <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
