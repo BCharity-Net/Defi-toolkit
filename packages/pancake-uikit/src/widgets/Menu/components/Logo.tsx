@@ -35,7 +35,7 @@ const StyledDiv = styled.div`
     }
   }
   .desktop-icon {
-    width: 160px;
+    width: 32px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
