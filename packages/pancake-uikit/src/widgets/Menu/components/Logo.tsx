@@ -85,6 +85,7 @@ const StyledTitle = styled.div`
     ${({ theme }) => theme.mediaQueries.nav} {
       display: flex;
     }
+    margin-left: 5px;
     align-items: center;
     font-size: 28px;
     color: #6498da;
