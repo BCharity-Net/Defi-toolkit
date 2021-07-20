@@ -1,6 +1,6 @@
 {
   "name": "@bcharitypackges/uikit",
-  "version": "4.2.6",
+  "version": "4.2.7",
   "description": "Set of UI components for bcharity defi website",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
