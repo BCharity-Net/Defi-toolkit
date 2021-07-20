@@ -20,9 +20,34 @@ const blink = keyframes`
 
 // animation for heart
 const pulse = keyframes`
-  0% { transform: scale(1); }
-  50% { transform: scale(1.3); }
-  100% { transform: scale(1); }
+  /* 0% { transform: scaleY(1) scaleX(1);}
+  50% { transform: scaleY(1.1) scaleX(0.7) scaleX(1.3);}
+  100% { transform: scaleY(1) scaleX(1);} */
+  0%
+  {
+    transform: scale( 0.9 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( 0.9 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( 0.9 );
+  }
+  100%
+  {
+    transform: scale( 0.9 );
+  }
+  
 `
 
 const StyledDiv = styled.div`
