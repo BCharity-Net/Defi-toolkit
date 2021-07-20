@@ -146,20 +146,20 @@ export const socials = [
     href: "https://t.me/BCharitynet",
   },
   {
+    label: "Discord",
+    icon: "DiscordIcon",
+    href: "https://discord.gg/vDZNUYYf",
+  },
+  {
     label: "Twitter",
     icon: "TwitterIcon",
     href: "https://twitter.com/bcharityFi",
   },
   {
-    label: "Discord",
-    icon: "DiscordIcon",
-    href: "https://discord.gg/vDZNUYYf",
+    label: "Instagram",
+    icon: "InstagramIcon",
+    href: "https://www.instagram.com/bcharityofficial/",
   },
-  // {
-  //   label: "Instagram",
-  //   icon: "InstagramIcon",
-  //   href: "https://www.instagram.com/bcharitycrypto/",
-  // },
 ];
 
 export const MENU_HEIGHT = 64;

@@ -31,7 +31,7 @@ const SocialEntry = styled.div`
   align-items: center;
   justify-content: space-between;
   height: ${MENU_ENTRY_HEIGHT}px;
-  padding: 0 16px;
+  padding: 0 25px;
 `;
 
 const ThemeEntry = styled.div`
