@@ -35,12 +35,28 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   }
 `;
 
+const Vfat = styled.div`
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: ${({ theme }) => theme.colors.textSubtle}
+`
+
+
 const Panel: React.FC<Props> = (props) => {
   const { isPushed, showMenu } = props;
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      <a target="_blank" rel="noreferrer" href="https://rugdoc.io/project/bcharity/"><img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" width="240px"/></a>
+
+      <Vfat>
+          <a color="#038cfc"  target="_blank" rel="noreferrer" href="https://vfat.tools/polygon/bcharity">
+              <u>Vfat tools</u>
+          </a>
+      </Vfat>
+        <a target="_blank" rel="noreferrer" href="https://rugdoc.io/project/bcharity/"><img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" width="240px"/></a>
+
       <PanelFooter {...props} />
     </StyledPanel>
   );
