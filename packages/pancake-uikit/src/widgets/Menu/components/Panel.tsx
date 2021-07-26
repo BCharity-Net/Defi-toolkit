@@ -52,7 +52,7 @@ const Panel: React.FC<Props> = (props) => {
         <a target="_blank" rel="noreferrer" href="https://rugdoc.io/project/bcharity/"><img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" width="240px"/></a>
       <Vfat>
           <a color="#038cfc"  target="_blank" rel="noreferrer" href="https://vfat.tools/polygon/bcharity">
-              <u>Vfat tools</u>
+              <u>vfat tools</u>
           </a>
       </Vfat>
 
