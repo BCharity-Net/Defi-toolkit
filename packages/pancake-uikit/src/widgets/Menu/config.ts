@@ -148,7 +148,7 @@ export const socials = [
   {
     label: "Discord",
     icon: "DiscordIcon",
-    href: "https://discord.gg/vDZNUYYf",
+    href: "https://discord.gg/mTvbcNTtzd",
   },
   {
     label: "Twitter",
