@@ -13,6 +13,10 @@ export const status = {
     text: "NEW",
     color: "success",
   },
+  AUTO: <LinkStatus>{
+    text: "AUTOCOMPOUND",
+    color: "primaryBright",
+  },
 };
 
 export const links = [
@@ -57,10 +61,10 @@ export const links = [
     href: "/nft",
   },
   {
-    label: "Team Battle",
+    label: "Vaults",
     icon: "TeamBattleIcon",
     href: "/competition",
-    status: status.SOON,
+    status: status.AUTO,
   },
   {
     label: "Profile & Teams",

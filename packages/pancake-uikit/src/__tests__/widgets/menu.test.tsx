@@ -1035,7 +1035,7 @@ it("renders correctly", () => {
                   <div
                     class="c14"
                   >
-                    Team Battle
+                    Vaults
                   </div>
                   <div
                     class="c20 c21"
