@@ -143,13 +143,13 @@ const Menu: React.FC<NavProps> = ({
             <Select
               options={[
                 {
-                  label: "Polygon",
-                  value: "Polygon",
-                },
-                {
                   label: "Avalanche",
                   value: "Avalanche",
                 },
+                {
+                  label: "Polygon",
+                  value: "Polygon",
+                },            
               ]}
               onChange={handleSortOptionChange}
             />
