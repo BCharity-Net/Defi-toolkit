@@ -125,11 +125,12 @@ const Select: React.FunctionComponent<SelectProps> = ({ options, onChange }) => 
 
   useEffect(() => {
     setContainerSize({
-      width: dropdownRef.current.offsetWidth, // Consider border
-      height: dropdownRef.current.offsetHeight,
+      // width: dropdownRef.current.offsetWidth, // Consider border
+      // height: dropdownRef.current.offsetHeight,
+      width: 10, // Consider border
+      height: 10,
     });
   }, []);
-  // let link = "";
   return (
     <DropDownContainer isOpen={isOpen} ref={containerRef} {...containerSize}>
       {containerSize.width !== 0 && (
