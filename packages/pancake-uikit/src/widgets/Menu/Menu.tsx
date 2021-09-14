@@ -141,7 +141,7 @@ const Menu: React.FC<NavProps> = ({
             {/* </Button> */}
             {/* {chainID === 137 ? "polygon" : "Avalanche" } */}
             {/* Add the select back in when you want a drop down menu to select platforms */ }
-            {/* <Select
+            <Select
               options={[
                 {
                   label: "Avalanche",
@@ -153,7 +153,7 @@ const Menu: React.FC<NavProps> = ({
                 },            
               ]}
               onChange={handleSortOptionChange}
-            /> */}
+            />
             <UserBlock account={account} login={login} logout={logout} />
             {/* {profile && <Avatar profile={profile} />} */}
           </Flex>
