@@ -23,8 +23,8 @@ const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null
       {account}
     </Text>
     <Flex mb="32px">
-      <LinkExternal small href={`https://cchain.explorer.avax.network/address/${account}`} mr="16px">
-        View on cchain
+      <LinkExternal small href={`https://blockscout.moonriver.moonbeam.network/address/${account}`} mr="16px">
+        View on Moonriver
       </LinkExternal>
       <CopyToClipboard toCopy={account}>Copy Address</CopyToClipboard>
     </Flex>
