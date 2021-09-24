@@ -48,14 +48,14 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      {/* <a target="_blank" rel="noreferrer" href="https://rugdoc.io/project/moongive/">
+      <a target="_blank" rel="noreferrer" href="https://rugdoc.io/project/moongive/">
         <img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" width="240px" />
       </a>
       <Vfat>
         <a color="#038cfc" target="_blank" rel="noreferrer" href="https://vfat.tools/moonriver/bcharity/">
           <u>vfat tools</u>
         </a>
-      </Vfat> */}
+      </Vfat>
 
       <PanelFooter {...props} />
     </StyledPanel>
