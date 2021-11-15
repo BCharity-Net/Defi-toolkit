@@ -1,6 +1,6 @@
 {
-  "name": "give-uikit",
-  "version": "0.0.1",
+  "name": "@bcharityfi/uikit",
+  "version": "1.0.0",
   "description": "Set of UI components for bcharity defi website",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
